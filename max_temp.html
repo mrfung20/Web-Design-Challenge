@@ -21,7 +21,7 @@
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
-      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,9 +33,9 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+              <a class="dropdown-item active" href="max_temp.html">Max Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
-              <a class="dropdown-item active" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
             </div>
           </li>
@@ -55,11 +55,11 @@
     <div class="row">
       <div class="col-lg-7 col-md-12">
         <!-- Left box  -->
-        <div class="box">
-          <h3 class="title">Cloudiness</h3>
+        <div class="box" style="padding-bottom: 5px;">
+          <h3 class="title">Max Temperature</h3>
           <hr>
-          <img src="Resources/assets/images/Fig3.png" alt="Cloudines Graph">
-          <p>The relationship between cloudiness and latitude shows variability. It does not show a strong linear relationship.</p>
+          <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Graph">
+          <p>The primary observation is that the temperature increases as it nears the equator.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
@@ -73,7 +73,7 @@
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="max_temp.html">
-                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                  <img class="panel active" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
                 </a>
               </div>
               <div class="col-6">
@@ -86,7 +86,7 @@
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="cloudiness.html">
-                  <img class="panel active" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                  <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
                 </a>
               </div>
               <div class="col-6">
